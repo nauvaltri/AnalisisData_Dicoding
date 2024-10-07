@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-day_df = pd.read_csv('Bike Sharing Dataset\day.csv')  
-hour_df = pd.read_csv('Bike Sharing Dataset\hour.csv')  
+day_df = pd.read_csv('Bike Sharing Dataset/day.csv')  
+hour_df = pd.read_csv('Bike Sharing Dataset/hour.csv')  
 
 bike_sharing_df = day_df.merge(hour_df, on='dteday', how='inner', suffixes=('_day', '_hour'))
 
