@@ -30,7 +30,7 @@ Dashboard ini memberikan wawasan tentang pola penyewaan sepeda berdasarkan berba
     pip install -r requirements.txt
 
 ## Cara Menjalankan Dashboard
-Streamlit run dashboard.py
+python -m Streamlit run dashboard.py
 
 ## Struktur Proyek
 final-project-data-analysis/
