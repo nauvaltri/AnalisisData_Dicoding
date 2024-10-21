@@ -21,10 +21,37 @@ Copy code
 git clone <URL_REPOSITORY>
 Pindah ke direktori proyek:
 
+<<<<<<< HEAD
 bash
 Copy code
 cd final-project-data-analysis
 Instal semua dependensi yang diperlukan:
+=======
+1. Clone repositori ini:
+   ```bash
+   git clone <URL_REPOSITORY>
+
+2. Pindah ke direktori proyek
+   cd final-project-data-analysis
+
+3. Instal semua dependensi yang diperlukan:
+    pip install -r requirements.txt
+
+## Cara Menjalankan Dashboard
+python -m Streamlit run dashboard.py
+
+## Struktur Proyek
+final-project-data-analysis/
+│
+├── Bike Sharing Dataset/ 
+│   ├── day.csv          
+│   └── hour.csv         
+│
+├── dashboard.py           
+├── proyek analisis data.ipynb 
+├── requirements.txt       
+└── README.md              
+>>>>>>> 4c238ee98e1cd63466710bee9e8f3499c89f1654
 
 bash
 Copy code
